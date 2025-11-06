@@ -22,7 +22,7 @@ const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmE0NjNlYzM2M2Y0YzZkZDkzNzgw
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
 const CFIP = process.env.CFIP || 'saas.sin.fan';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
-const NAME = process.env.NAME || 'Railway';                        // 节点名称
+const NAME = process.env.NAME || 'RailwayUS';                        // 节点名称
 
 // 创建运行文件夹
 if (!fs.existsSync(FILE_PATH)) {
