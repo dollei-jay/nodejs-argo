@@ -39,7 +39,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/rlwaydollei:20251106
+            ghcr.io/${{ github.repository_owner }}/rlydollei:202511
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
